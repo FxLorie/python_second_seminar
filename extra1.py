@@ -5,7 +5,6 @@
 m = [2, 3, 5, 9, 3]
 i = 0
 p = 0
-for i in range(4):
-    if i % 2 != 0:
+for i in range(2, len(m), 2):
         p += m[i]
 print(p)
